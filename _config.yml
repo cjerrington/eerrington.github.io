@@ -1,5 +1,5 @@
 name: Emily Errington
 description: A place for my thoughts and photography
 paginate: 10
-baseurl: '127.0.0.1:4000'
+baseurl: 'http://emilyerrington.com'
 permalink: /blog/:year/:month/:day/:title
