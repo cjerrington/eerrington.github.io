@@ -23,7 +23,7 @@ featured:
 												{% if post.featured %}<a href="#" class="image left"><img src="{{ site.baseurl }}{{ post.featured }}" alt=""></a>{% endif %}
 												<div class="inner">
 													<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-													{{ post.excerpt }}
+													 {{ post.content | truncatewords:40}}
 													<footer>
 														<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
 													</footer>
