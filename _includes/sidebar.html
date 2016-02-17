@@ -1,7 +1,7 @@
 <div id="sidebar">
 
 	<!-- Sidebar -->
-	{% for post in site.posts offset: 0 limit: 2 %}
+	{% for post in site.posts offset: 0 limit: 4 %}
 		<section>
 			<h3>{{ post.title }}</h3>
 			{{ post.content | truncatewords:40 }}
