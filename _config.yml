@@ -3,3 +3,4 @@ description: A place for my thoughts and photography
 paginate: 10
 baseurl: 'http://emilyerrington.com'
 permalink: /blog/:year/:month/:day/:title
+version: v3.0.2
