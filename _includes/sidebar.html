@@ -4,7 +4,7 @@
 	{% for post in site.posts offset: 0 limit: 2 %}
 		<section>
 			<h3>{{ post.title }}</h3>
-			{{ post.excerpt }}
+			{{ post.content | truncatewords:40 }}
 			<footer>
 				<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
 			</footer>
