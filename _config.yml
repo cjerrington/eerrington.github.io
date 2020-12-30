@@ -1,5 +1,5 @@
 name: Emily Errington
-description: A place for my thoughts and photography
+description: Under Construction
 paginate: 10
 baseurl: 'http://emilyerrington.com'
 permalink: /blog/:year/:month/:day/:title
