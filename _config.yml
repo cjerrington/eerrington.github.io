@@ -1,6 +1,6 @@
 name: Emily Errington
 description: Under Construction
 paginate: 10
-baseurl: 'http://emilyerrington.com'
+baseurl: 'https://emilyerrington.com'
 permalink: /blog/:year/:month/:day/:title
 version: v3.0.2
