@@ -1,6 +1,29 @@
-name: Emily Errington
-description: Under Construction
-paginate: 10
-baseurl: 'https://emilyerrington.com'
-permalink: /blog/:year/:month/:day/:title
-version: v3.0.2
+# Site settings
+title: Emily Errington Duola Services
+subtitle: Wild Flower Doula Co.
+email: youremailaddress@gmail.com
+description: Emily Errington Doula Services helping moms with their babies
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://emilyerrington.com" # the base hostname & protocol for your site
+author: Emily Errington
+street_address: 
+city: Lubbock
+state: TX
+zip_code: 79416
+country: United States of America
+phone: 
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/doula.emilyerr
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# Build settings
+markdown: kramdown
