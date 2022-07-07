@@ -1,7 +1,7 @@
 # Site settings
 title: Emily Errington Doula Services
 subtitle: Wild Flower Doula Co.
-email: youremailaddress@gmail.com
+email: emilyerrington@icloud.com
 description: Emily Errington Doula Services helping moms with their babies
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://emilyerrington.com" # the base hostname & protocol for your site
@@ -15,7 +15,7 @@ phone:
 
 # Social settings
 500px_url:
-facebook_url:
+facebook_url: https://www.facebook.com/doula.emilyerr
 github_url:
 gitlab_url: 
 googleplus_url: 
