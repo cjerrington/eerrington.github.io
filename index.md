@@ -5,7 +5,7 @@ layout: default
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Erat lacinia</h2>
+		<h2>Services</h2>
 	</header>
 	<div class="features">
 		<article>
@@ -42,7 +42,7 @@ layout: default
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Ipsum sed dolor</h2>
+		<h2>Blog Posts of write-ups I want to share</h2>
 	</header>
 	<div class="posts">
 		<article>
