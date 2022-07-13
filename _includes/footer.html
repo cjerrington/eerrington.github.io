@@ -1,6 +1,19 @@
-<!-- Scripts -->
+  <!-- Scripts -->
   <script src="{{ 'assets/js/jquery.min.js' | absolute_url }}"></script>
   <script src="{{ 'assets/js/skel.min.js' | absolute_url }}"></script>
   <script src="{{ 'assets/js/util.js' | absolute_url }}"></script>
   <!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
   <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+
+    <!-- Script pointing to search-script.js -->
+    <script src="{{ '/assets/js/search.min.js' | absolute_url }}" type="text/javascript"></script>
+  
+    <!-- Configuration -->
+    <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      noResultsText: ("No result found!")
+    })
+    </script>
