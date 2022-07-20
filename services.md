@@ -3,10 +3,9 @@ layout: page
 title: Services
 ---
 
-<p>What do I get?
-What do you get when you hire me as your birth doula?
-
-I am always willing to add to packages according to a clients needs but here is a snapshot of the typical services I offer.
+<p>
+What do you get when you hire me as your birth doula?<br />
+I am always willing to add extra meetings to packages according to a clients needs. 
 
 <ul>
     <li>Two prenatal meetings together.</li>
@@ -22,13 +21,13 @@ I am always willing to add to packages according to a clients needs but here is 
 </ul>
 </p>
     
-<section>    
-{% for service in site.data.services %}
-    <article>
-        <div class="content">
-            <h3>{{ service.title }}</h3>
-            <p>{{ service.desc }}</p>
-        </div>
-    </article>
- {% endfor %}
-</section>
+<div class="features">
+    {% for service in site.data.services %}
+        <article>
+            <div class="content">
+                <h3>{{ service.title }}</h3>
+                <p>{{ service.desc }}</p>
+            </div>
+        </article>
+    {% endfor %}
+</div>

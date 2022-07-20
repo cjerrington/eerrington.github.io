@@ -6,6 +6,17 @@
 
 (function($) {
 
+
+	$(function() {
+	   $('a[href^="http://"],a[href^="https://"]')
+	  .not("[href*='"+location.host+"']")
+	  .click(function(e) {
+		var url = this.href;
+		e.preventDefault();
+		 window.open(url);
+	  })
+	});
+
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
