@@ -19,8 +19,6 @@
             <li><a href="{% link index.md %}">Home</a></li>
             <li><a href="{% link services.md %}">Services</a></li>
             <li><a href="{% link about.md %}">About</a></li>
-            <li><a href="{% link contact.md %}">Contact</a></li>
-            
           </ul>
         </nav>
 
@@ -53,9 +51,8 @@
           <header class="major">
             <h2>Get in touch</h2>
           </header>
-          <p>Feel free to reach out to me with your questions and I'll get back to you with you.</p>
           <ul class="contact">
-            <li class="fa-envelope-o">{{ site.email }}</li>
+            <li class="fa-envelope-o"><a href="{% link contact.md %}">Contact</a></li>
             <li class="fa-facebook"><a href="{{ site.facebook_url }}" target="_blank"><span class="label">Facebook</span></a></li>
             <li class="fa-instagram"><a href="{{ site.instagram_url }}" target="_blank"><span class="label">Instagram</span></a></li>
             <li class="fa-home">{{ site.city }}, {{ site.state }}</li>
@@ -64,7 +61,7 @@
 
       <!-- Footer -->
         <footer id="footer">
-          <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved. Maintained by me and <a href="https://claytonerrington.com">Clayton Errington</a>.</p>
+          <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
         </footer>
 
     </div>

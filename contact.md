@@ -18,17 +18,9 @@ title: Contact Me
 					<div class="12u$">
 						<input type="tel" name="telephone" id="telephone" placeholder="555-234-5678" required="">
 					</div>
-					<!-- Break -->
 					<div class="12u$">
-						<div class="select-wrapper">
-							<select name="pregnancy" id="pregnancy" required="">
-								<option value="" selected="" disabled="">How far along in you pregnancy are you?</option>
-								<option value="Not Pregnant">Not Pregnant</option>
-								<option value="1st Trimester">1st Trimester</option>
-								<option value="2nd Trimester">2nd Trimester</option>
-								<option value="3rd Trimester">3rd Trimester</option>
-							</select>
-						</div>
+						<label for="duedate">When is your due date?</label>
+						<input type="date" name="duedate" id="duedate" required="">
 					</div>
 					<!-- Break -->
 					<div class="12u$">
