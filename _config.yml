@@ -2,7 +2,7 @@
 title: Emily Errington Doula Services
 subtitle: Wildflower Doula Co.
 email: emilyerrington@icloud.com
-description: Emily Errington Doula Services helping moms with their babies
+description: Emily Errington Doula Services - helping moms with their babies. Certified DONA Doula in the Lubbock, TX area.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://emilyerrington.com" # the base hostname & protocol for your site
 author: Emily Errington
@@ -11,7 +11,8 @@ city: Lubbock
 state: TX
 zip_code: 
 country: United States of America
-phone: 
+author:
+  name   : "Emily Errington"
 
 # Social settings
 500px_url:
@@ -39,7 +40,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-permalink: pretty
+permalink: /:categories/:title/
 
 sass:
   sass_dir: _sass
