@@ -19,7 +19,7 @@ I thought we could start by getting to know a little about me! If you’re looki
 
 **Tell me about your family**
 
-- I’ve been married to my husband Clayton for 8 years and we have to daughters.
+- I’ve been married to my husband Clayton for 8 years and we have two daughters.
 
 **What did you do before you were a doula?**
 
