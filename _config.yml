@@ -26,6 +26,8 @@ pinterest_url:
 slack_url:
 twitter_url: 
 
+repository: cjerrington/eerrington.github.io
+
 # Build settings
 markdown: kramdown
 
