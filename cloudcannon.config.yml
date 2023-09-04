@@ -3,6 +3,7 @@ paths:
   data: _data
   layouts: _layouts
   includes: _includes
+  posts: _posts
 collections_config:
   posts:
     path: _posts
